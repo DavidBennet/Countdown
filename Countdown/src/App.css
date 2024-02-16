@@ -1,0 +1,43 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.app {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  min-width: 50%;
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 900;
+  font-weight: 900;
+}
+
+.contdown-container {
+  display: flex;
+  margin: 1rem auto;
+  gap: 2rem;
+}
